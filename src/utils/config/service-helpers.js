@@ -260,6 +260,9 @@ export function cleanServiceGroups(groups) {
           highlight,
           type,
 
+          // airtrail
+          imperial,
+
           // arcane
           env,
 
@@ -470,6 +473,10 @@ export function cleanServiceGroups(groups) {
           if (parsedHighlight && typeof parsedHighlight === "object") {
             widget.highlight = parsedHighlight;
           }
+        }
+
+        if (type === "airtrail") {
+          if (imperial !== undefined) widget.imperial = !!imperial;
         }
 
         if (type === "azuredevops") {

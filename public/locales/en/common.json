@@ -333,6 +333,16 @@
         "filtered": "Filtered",
         "latency": "Latency"
     },
+    "airtrail": {
+        "flights": "Flights",
+        "distance": "Distance",
+        "duration": "Duration",
+        "airports": "Airports",
+        "topAirline": "Top Airline",
+        "topAirport": "Top Airport",
+        "topAircraft": "Top Aircraft",
+        "topRoute": "Top Route"
+    },
     "speedtest": {
         "upload": "Upload",
         "download": "Download",

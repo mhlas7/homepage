@@ -1,4 +1,5 @@
 import adguard from "./adguard/widget";
+import airtrail from "./airtrail/widget";
 import apcups from "./apcups/widget";
 import arcane from "./arcane/widget";
 import argocd from "./argocd/widget";
@@ -160,6 +161,7 @@ import zabbix from "./zabbix/widget";
 
 const widgets = {
   adguard,
+  airtrail,
   apcups,
   arcane,
   argocd,
